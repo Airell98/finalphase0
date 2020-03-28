@@ -1,0 +1,51 @@
+body {
+	background-color: rgb(22, 21, 21);
+}
+
+.container {
+	width: 600px;
+	margin: auto;
+}
+
+.main-text {
+	border-bottom: 1px solid black;
+}
+.main-text h1 {
+	font-size: 50px;
+	text-align: center;
+	color: rgba(252, 29, 29, 0.918);
+}
+
+.first-par li h2 {
+	text-align: center;
+	color: rgb(241, 234, 234);
+}
+ul {
+	list-style: none;
+}
+
+.tombol {
+	background-color: rgb(250, 75, 75);
+	border: 2px solid whitesmoke;
+	transition-duration: 0.4s;
+	padding: 15px 32px;
+
+	display: inline-block;
+	font-size: 16px;
+	margin: auto;
+}
+.tombol:hover {
+	background-color: #4caf50;
+	color: white;
+}
+
+.tombol a {
+	color: white;
+
+	text-align: center;
+	text-decoration: none;
+}
+.tempat-tombol{
+  margin: auto;
+  width: 100px;
+}

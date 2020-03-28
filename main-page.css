@@ -1,0 +1,58 @@
+body {
+  background-image: url(coronaVirus.jpg);
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+
+h1, h2 {
+	font-family: arial;
+	font-size: 60px;
+  text-align: center;
+  margin : 10px;
+  color : rgb(250, 246, 246);
+  text-shadow: 4px 2px 2px  #ff0000;
+}
+
+button{
+  margin: auto;
+  display: block;
+}
+
+.container {
+	width: 600px;
+	margin: auto;
+	
+}
+
+.soil {
+	width: 200px;
+	height: 200px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+}
+
+.soil:after {
+	content: '';
+	display: block;
+	width: 200px;
+	background: url(soil3.png) bottom center no-repeat;
+	height: 100px;
+	background-size: 80%;
+	position: absolute;
+	bottom: -5px;
+}
+
+.corona{
+  width: 100%;
+  height: 100%;
+  background: url(corona.png) bottom center no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 200px
+}
+
+.soil.pop .corona{
+  top: 0;
+  transition: 0.3s;
+}
